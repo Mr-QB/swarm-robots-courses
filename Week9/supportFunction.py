@@ -102,6 +102,12 @@ def drawMap(numberObstacles=8):
 
 # In ra vài dòng hướng dẫn
 def printInstructions(screen):
+    """
+    In ra hướng dẫn trên màn hình.
+
+    Parameters:
+        screen (pygame.Surface): Màn hình Pygame.
+    """
     font = pygame.font.Font(None, 17)
     text_1 = font.render('Press "S" to start the program', True, BLACK)
     text_2 = font.render('Press "ESC" to start the program', True, BLACK)
