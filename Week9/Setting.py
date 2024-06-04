@@ -17,3 +17,5 @@ MAX_SPEED = 3  # Tốc độ tối đa của agent
 AVOIDANCE_SCALE = 7  # Hệ số để điều chỉnh tránh va chạm
 MOVE_TO_GOAL_SCALE = 1  # Hệ số để điều chỉnh di chuyển đến mục tiêu
 AGENT_RADIUS = 5  # Kích thước của agent
+
+
