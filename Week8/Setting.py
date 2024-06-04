@@ -23,6 +23,9 @@ colors = ["blue", "green", "yellow", "red"]
 last_rate = 0  # Tỉ lệ tốt nhất của ô lưới được phủ sóng, khởi tạo ban đầu là 0.
 NUM_AP = 4  # Số lượng điểm truy cập (AP) trong mạng, trong trường hợp này là 3.
 w = 0.9  # Hệ số trọng số cho vận tốc của agent trong thuật toán PSO.
-c1 = 2.5  # Hệ số cho yếu tố cá nhân tốt nhất trong thuật toán PSO.
-c2 = 0.8  # Hệ số cho yếu tố toàn cục tốt nhất trong thuật toán PSO.
-agent_spacing = 50  # Khoảng cách giữa các agent
+c1 = 2.7  # Hệ số cho yếu tố cá nhân tốt nhất trong thuật toán PSO.
+c2 = 1  # Hệ số cho yếu tố toàn cục tốt nhất trong thuật toán PSO.
+agent_spacing = 250  # Khoảng cách giữa các agent
+max_stale_iterations = (
+    10  # Số lần lặp tối đa mà biến biggest_rate không thay đổi trước khi kết thúc.
+)

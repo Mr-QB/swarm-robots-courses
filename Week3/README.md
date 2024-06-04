@@ -2,7 +2,7 @@
 
 ## Giới thiệu
 Báo cáo này tập trung vào việc nghiên cứu và mô phỏng việc áp dụng mạng nơ ron nhân tạo trong điều khiển robot e-puck.
-
+ 
 ## Lý thuyết
 Trong thử nghiệm này, chúng tôi sử dụng mạng nơ ron nhân tạo như một bộ não ảo cho robot e-puck. Dữ liệu từ các cảm biến như cảm biến tiếp xúc, cảm biến khoảng cách và cảm biến màu sắc được thu thập và đưa vào mạng nơ ron. Mạng nơ ron sau đó phản hồi bằng cách tạo ra các quyết định về hành động tiếp theo của robot dựa trên thông tin đầu vào từ môi trường.
 

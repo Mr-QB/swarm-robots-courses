@@ -36,10 +36,6 @@ image = imread("Week8\Input\house_cad.png")  # Đọc hình ảnh từ file cad 
 plt.imshow(image)  # Hiển thị hình ảnh nền.
 loop = True  # Biến kiểm soát vòng lặp chính của chương trình.
 
-max_stale_iterations = (
-    # Số lần lặp tối đa mà biến biggest_rate không thay đổi trước khi kết thúc.
-    20
-)
 stale_count = 0  # Biến đếm số lần lặp mà biến biggest_rate không thay đổi.
 biggest_rate_l = 0  # Biến lưu trữ biggest_rate của lần lặp trước để so sánh.
 
@@ -104,7 +100,7 @@ while loop:
             )
         )
         image_files = [
-            "Week8/Output/{}Agent_{}.png".format(NUM_AP, i) for i in range(count + 1)
+            "Week8/Output/{}Agent_{}.png".format(NUM_AP, i) for i in range(count)
         ]
         images = [imageio.imread(file) for file in image_files]
         imageio.mimsave("Week8\Demo\{}_agent.gif".format(NUM_AP), images, fps=7)
