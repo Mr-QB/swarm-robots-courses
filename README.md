@@ -45,7 +45,7 @@ Kho lưu trữ này nhằm mục đích cung cấp tài liệu và mã nguồn c
     - Folder: [Week7](Week7)
     - Mô Tả: Chương trình mô phỏng này mô tả quá trình điều khiển bao phủ đa robot trong một môi trường có cấu trúc bất kỳ. Trong môi trường này, các robot cần phải tìm cách chiếm đóng các điểm trên bản đồ một cách hiệu quả để bảo vệ và giám sát các khu vực quan trọng.
 
-![2_agent_demo](Week6\demo\V-ShapeFormation.gif)
+![2_agent_demo](Week7/Demo/Occupythemulti-robotarea.gif)
 7. **Chương Trình PSO Tối Ưu Vùng Bao Phủ Mạng WiFi**
     - Folder: [Week8](Week8)
     - Mô Tả: Chương trình sử dụng thuật toán PSO để tối ưu vùng bao phủ của mạng WiFi đa điểm truy cập.
@@ -60,7 +60,7 @@ Kho lưu trữ này nhằm mục đích cung cấp tài liệu và mã nguồn c
 10. **Mô phỏng Định tuyến mạng bằng Pygame và thuật toán DSDV**
     - Folder: [Week10](Week10)
     - Mô Tả: Dự án này là một mô phỏng sử dụng Pygame để tạo ra một mạng của các node và thực hiện định tuyến giữa chúng. Trong dự án này, thuật toán Định tuyến DSDV (Destination-Sequenced Distance Vector Routing) được áp dụng để quản lý việc định tuyến trong mạng.
-    
+
 ![Demo](Week10/Demo/DSDVDemo.gif)
 
 ## Đóng Góp
