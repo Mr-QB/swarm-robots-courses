@@ -35,6 +35,7 @@ Kho lưu trữ này nhằm mục đích cung cấp tài liệu và mã nguồn c
     - Mô Tả: Dự án này cung cấp mã nguồn Python để mô phỏng thuật toán Flocking Reynolds, một phương pháp mô phỏng hành vi đàn bầy trong lập trình máy tính đồ hoạ.
 
 ![2_agent_demo](Week5\Demo\demo.gif)
+
 5. **Mô phỏng đội hình bay V-shaped bằng Pygame**
     - Folder: [Week6](Week6)
     - Mô Tả: Dự án này mô phỏng việc tổ chức và điều chỉnh đội hình bay theo hình dáng V-shaped bằng cách sử dụng Pygame. Dù đơn giản, dự án cung cấp một cái nhìn tổng quan về cách tổ chức đội hình bay và là một bước khởi đầu để tìm hiểu sâu hơn về các phương pháp tối ưu hóa hiệu suất bay.
@@ -46,17 +47,20 @@ Kho lưu trữ này nhằm mục đích cung cấp tài liệu và mã nguồn c
     - Mô Tả: Chương trình mô phỏng này mô tả quá trình điều khiển bao phủ đa robot trong một môi trường có cấu trúc bất kỳ. Trong môi trường này, các robot cần phải tìm cách chiếm đóng các điểm trên bản đồ một cách hiệu quả để bảo vệ và giám sát các khu vực quan trọng.
 
 ![2_agent_demo](Week7/Demo/Occupythemulti-robotarea.gif)
+
 7. **Chương Trình PSO Tối Ưu Vùng Bao Phủ Mạng WiFi**
     - Folder: [Week8](Week8)
     - Mô Tả: Chương trình sử dụng thuật toán PSO để tối ưu vùng bao phủ của mạng WiFi đa điểm truy cập.
 
 ![Demo](Week8/Demo/3_agent.gif)
 ![Demo](Week8/Demo/4_agent.gif)
+
 9. **Mô phỏng thuật toán theo dõi đa mục tiêu (MTT) của hệ thống đa robot**
     - Folder: [Week9](Week9)
     - Mô Tả: Chương trình này là một mô phỏng của thuật toán theo dõi đa mục tiêu (MTT) được triển khai cho một hệ thống đa robot. Thuật toán này giúp các robot trong hệ thống tìm và theo dõi nhiều mục tiêu cùng một lúc.
 
 ![Demo](Week9/Demo/Multi-targetTrackingDemo.gif)
+
 10. **Mô phỏng Định tuyến mạng bằng Pygame và thuật toán DSDV**
     - Folder: [Week10](Week10)
     - Mô Tả: Dự án này là một mô phỏng sử dụng Pygame để tạo ra một mạng của các node và thực hiện định tuyến giữa chúng. Trong dự án này, thuật toán Định tuyến DSDV (Destination-Sequenced Distance Vector Routing) được áp dụng để quản lý việc định tuyến trong mạng.
